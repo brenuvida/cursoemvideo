@@ -1,0 +1,8 @@
+s = input ('Digite um algo: ')
+print ('A informação digitada é do tipo ',type(s))
+print ('A informação digitada é uma string? ', s.isalpha())
+print ('A informação digitada é um numeral? ', s.isnumeric())
+print ('A informação digitada é alphanumerica? ', s.isalnum())
+print ('A informação digitada é maiúscula? ', s.isupper())
+print ('A informação digitada é minúscula? ', s.islower())
+print ('A informação digitada é capitalizada? ',s.istitle())
